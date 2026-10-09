@@ -1,6 +1,10 @@
 # paper-writing-skills
 
+**English** | [中文](./zh/WORKFLOW.md)
+
 A set of manual-invoke skills for an AI-assisted academic paper writing pipeline, designed for Chinese geosciences / resource-environment papers (water ecological footprint, spatial statistics, etc.).
+
+> 📖 **Full workflow guide:** [en/WORKFLOW.md](./en/WORKFLOW.md) | [zh/WORKFLOW.md](./zh/WORKFLOW.md)
 
 ## Skills
 
@@ -14,7 +18,10 @@ A set of manual-invoke skills for an AI-assisted academic paper writing pipeline
 ## Repository Layout
 
 ```
-├── zh/                    # Chinese versions (original)
+├── README.md
+├── WORKFLOW.md             # (see en/zh below)
+├── zh/                     # Chinese versions (original)
+│   ├── WORKFLOW.md         #   中文工作流说明
 │   ├── write/SKILL.md
 │   ├── write/references/
 │   ├── read/SKILL.md
@@ -22,7 +29,8 @@ A set of manual-invoke skills for an AI-assisted academic paper writing pipeline
 │   ├── engine/SKILL.md
 │   ├── engine/references/
 │   └── p/SKILL.md
-└── en/                    # English versions
+└── en/                     # English versions
+    ├── WORKFLOW.md         #   English workflow guide
     ├── write/SKILL.md
     ├── read/SKILL.md
     ├── engine/SKILL.md
