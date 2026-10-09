@@ -35,20 +35,20 @@ description: "【手动唤起型，仅在用户输入 ENGINE START 时触发】�
 ├── 03_papers/                  # read skill 工作区
 │   ├── Article/               #   每篇论文笔记：<title>.md
 │   ├── ArticleMatrices.md     #   目录卡片
-│   └── _reading-progress.md    #   已读/待读/放弃
+│   └── _reading-progress.md     #   已读/待读/放弃
 ├── 04_experiments/
 │   ├── code/                  # 主线测试脚本（python/r 等）
 │   ├── results/               # 脚本跑出的中间结果
 │   └── logs/                  # 实验日志
-├── 05_outline/                 # 论文中心、实验方案、章节大纲
-├── 06_temp/                   # AI 过程文件：试跑脚本、中间数据、废稿
+├── 05_outline/                  # 论文中心、实验方案、章节大纲
+├── 06_temp/                    # AI 过程文件：试跑脚本、中间数据、废稿
 ├── 07_draft/                   # write skill 最终稿工作区
 │   └── (按章节建子文件夹，如 1-intro/、2.2-methods/)
 └── 08_figures/                 # p skill 工作区：所有图件工程、数据、最终图
     ├── origin/                 #   Origin工程（.opj）+ 数据 + 最终图
-    ├── arcmap/                 #   ArcMap工程（.mxd）+ shp + 最终图
-    ├── geoda/                  #   GeoDa项目文件
-    └── python/                 #   Python画图脚本 + 输出图
+    ├── arcmap/                #   ArcMap工程（.mxd）+ shp + 最终图
+    ├── geoda/                 #   GeoDa项目文件
+    └── python/                #   Python画图脚本 + 输出图
 ```
 
 ## 写入规则（写进 README.md）

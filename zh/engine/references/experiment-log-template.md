@@ -1,28 +1,28 @@
-# 实验日志
+# Experiment Log
 
-> 每跑一次分析/改一次参数追加一篇，文件名 `YYYY-MM-DD_主题.md`。
-> 过两个月回来一看就知道当时为什么这么算的。
+> Append one entry per analysis run or parameter change. Filename: `YYYY-MM-DD_topic.md`.
+> When you revisit months later, you will know why you computed it this way.
 
 ---
 
-## 日期
+## Date
 
-## 做了什么改动
+## What changed
 
-（例：γ_w 从 1.22 改到 5.19；新增空间自相关分析；数据从 2015 延到 2024）
+(e.g., parameter X updated from A to B; added spatial autocorrelation analysis; data extended from year N to M)
 
-## 输入
+## Inputs
 
-（用了什么数据、哪个文件）
+(Which data, which files)
 
-## 输出变化
+## Output changes
 
-（结果怎么变了——数值、空间格局、排名）
+(How results changed — values, spatial pattern, rankings)
 
-## 为什么这么改
+## Why this change
 
-（依据什么文献/什么考虑）
+(Based on which reference / what consideration)
 
-## 对应论文章节
+## Related manuscript section
 
-（3.1 / 4.2 / …）
+(3.1 / 4.2 / …)
