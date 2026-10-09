@@ -26,20 +26,20 @@
 ## write skill 引用图的方式
 
 正文里写："如图X所示，……"
-- 图号从 `05_主线设计/图表清单.md` 取
+- 图号从 `05_outline/figure-list.md` 取
 - 图题不写在正文里，Word 插图时统一加
 - 正文第一次提到某图时写"如图X所示"，后面再提可以省略
 - 图号按正文出现顺序排，不是按章节排
 
 ## 数据存放规则
 
-画图的工程、数据、最终图统一放 `08_图/<平台>/图X_图名/` 下：
-- `08_图/origin/图2_人均WEF/图2.opj`（Origin工程）
-- `08_图/origin/图2_人均WEF/图2_数据.csv`（绘图数据，从 01_数据处理/ 或 04_实验测试/结果输出/ 复制）
-- `08_图/arcmap/图3_空间格局/图3.mxd`（ArcMap工程）
-- `08_图/python/图7_预测/plot.py`（Python脚本）
+画图的工程、数据、最终图统一放 `08_figures/<platform>/FigX_name/` 下：
+- `08_figures/origin/Fig2_perCapitaWEF/Fig2.opj`（Origin工程）
+- `08_figures/origin/Fig2_perCapitaWEF/Fig2_data.csv`（绘图数据，从 `01_data/raw/` 或 `04_experiments/results/` 复制）
+- `08_figures/arcmap/Fig3_spatialPattern/Fig3.mxd`（ArcMap工程）
+- `08_figures/python/Fig7_forecast/plot.py`（Python脚本）
 
-**铁律：图上每个数据点必须能在源文件里找到。** 图表清单里的"数据文件"字段必须填具体CSV/shp路径，不能写"年鉴""统计公报"这种模糊来源。审稿人要查数据时，能从图→CSV→原始数据一路追溯。
+**铁律：图上每个数据点必须能在源文件里找到。** figure-list.md 里的"数据文件"字段必须填具体CSV/shp路径，不能写"年鉴""统计公报"这种模糊来源。审稿人要查数据时，能从图→CSV→原始数据一路追溯。
 
 ## 导出规范（中文SCI最低要求）
 
